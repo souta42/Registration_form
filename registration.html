@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div id = "container">
+    <ul class="menuReg">
+        <li><a href="registration.html" name="registration">REGISTRATION</a></li>
+        <li><a href="login.html" name="login">LOGIN</a></li>
+    </ul>
+    <h1>Register</h1>
+    <form class="subform"  method="post" action="submit.html">
+        <select name="team">
+            <option value="null">Select team</option>
+            <option value="1">Team A</option>
+            <option value="2">Team B</option>
+            <option value="3">Team C</option>
+        </select>
+        <p><input type="email" name="email" placeholder="Email"></p>
+        <p><input type="text" name="username" required placeholder="Username"></p>
+        <p class="warning">The Username field is required.</p>
+        <p><input type="password" name="password" required placeholder="Password"></p>
+        <p class="warning">The Password field is required.</p>
+        <p><input type="password" name="pswCheck" placeholder="Repeat password"></p>
+        <p><input type="submit" class="regBtn" value="Register"></p>
+    </form>
+</div>
+</body>
+</html>

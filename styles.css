@@ -1,0 +1,141 @@
+body {
+    position: relative;
+    min-height: 100%;
+}
+#container {
+    width: 576px;
+    padding: 96px 19px 24px;
+    margin: 0 auto;
+    background-color: rgb(237,242,245);
+    position: relative;
+}
+.menu{
+    margin: 0 20px;
+    padding: 0;
+    list-style: none;
+}
+.menu li {
+    color: rgb(0, 91, 161);
+    float: left;
+    width: 265px;
+    box-sizing: border-box;
+}
+.menu a {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid transparent;
+    border-right: none;
+    border-radius: 15px 0 0 15px;
+    display: block;
+    height: 30px;
+    color: rgb(0, 91, 161);
+    background-color: #FFF;
+}
+.menu li:last-of-type a {
+    color: #FFF;
+    border-right: 1px solid transparent;
+    border-radius: 0 8px 8px 0;
+    background-color: rgb(0, 91, 161);
+}
+.menuReg{
+    margin: 0 20px;
+    padding: 0;
+    list-style: none;
+}
+.menuReg li {
+    color: #FFF;
+    float: left;
+    width: 265px;
+    box-sizing: border-box;
+}
+.menuReg a {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: #FFF;
+    padding: 10px 0;
+    border: 1px solid transparent;
+    border-right: none;
+    border-radius: 15px 0 0 15px;
+    display: block;
+    height: 30px;
+    background-color: rgb(0, 91, 161);
+}
+.menuReg li:last-of-type a {
+    color: rgb(0, 91, 161);
+    border-right: 1px solid transparent;
+    border-radius: 0 8px 8px 0;
+    background-color: #FFF;
+}
+h1 {
+    font-size: 2em;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 91, 161);
+    display: inline-block;
+    margin: 15px 20px 20px;
+}
+p {
+    font-size: 1em;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: normal;
+    color: #000;
+    text-align: center;
+}
+p a, .check{
+    color: rgb(80,172,113);
+    text-decoration: none;
+    margin: 25px auto 40px;
+}
+.warning {
+    font-size: 0.8em;
+    font-style: italic;
+    color: red;
+    box-sizing: border-box;
+    margin-top: -15px;
+}
+.pasReset {
+    margin-bottom: 30px;
+}
+.register{
+    margin: 30px auto 250px;
+}
+.subform select{
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    width: 550px;
+    height: 50px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+.subform input[type="text"], input[type="password"], input[type="email"] {
+    border: none;
+    border-radius: 8px;
+    color: #011a52;
+    font-size: 1em;
+    width: 535px;
+    height: 50px;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+.subform input[type="submit"] {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #FFF;
+    background: rgb(80,172,113);
+    border-radius: 8px;
+    width: 550px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.subform .regBtn{
+    margin: 5px auto 250px;
+}
